@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+    
+}
+
+
+.lado-esquerdo-menu {
+    display: flex;
+    gap: 50px;
+
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;    
+  
+}
+
+.lado-direito-menu {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.nome {
+    text-decoration: none;
+    color: gray;
+}
+
+.icone {
+    height: 150px;
+    
+}
+
+.line {
+
+    height: 1px;
+    background-color: gray;
+    width: 90%;
+    align-self: center;
+    margin-left: 75px;
+}
+
+.lado-esquerdo {
+    display: flex;
+    
+
+}
+
+.Pags {
+    margin-top: 5%;
+    margin-left: 15%;
+    padding-bottom: 30%;
+    border-radius: 10px;
+    width: 30vw;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.Peça{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Titulo1 {
+    display: flex;
+    margin-left: 50%  ;
+    margin-top: -80px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ a, p{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+ }
+
+
+ footer {
+    background-color: #9b9292;
+    color: white;
+    padding: 20px 0;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .footer-p {
+    flex: 1;
+    margin: 0 20px;
+  }
+
+  h3 {
+    border-bottom: 2px solid white;
+    margin-top: 0;
+    padding-bottom: 5px;
+  }
+
+  .rede-social img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  ul {
+    list-style: none;
+     
+    
+  }
+
+  ul li {
+    margin-bottom: 5px;
+  }
+
+  .footer-inferior{
+    margin-top: 20px;
+    text-align: center; 
+  }
+
+

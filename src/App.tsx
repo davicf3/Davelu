@@ -1,24 +1,15 @@
 import React from 'react';
-import Menu from './components/Menu';
-import Paginas from './components/Paginas';
-import Rodape from './components/Rodape';
-import FundoSite from './components/FundoSite';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Cadastro from './Pages/Cadastro';
+import { BrowserRouter} from 'react-router-dom';
+import RRotas from './Routes/RRotas';
 
 const App = () => {
   return (
     <>
-     
-      <Menu/>
-      <Paginas/>
-      <Rodape/>
-
-
-
+      <BrowserRouter>
+        <RRotas/>
+      </BrowserRouter>
     </>
   );
 };
-export {};
 
 export default App;

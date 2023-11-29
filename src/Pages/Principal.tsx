@@ -83,7 +83,7 @@ const Menu = () => {
             <h3>Links Úteis</h3>
             <ul>
               <li><a href="#">Termos de Serviço</a></li>
-              <li><a href="#">Política de Privacidade</a></li>
+              <li><a href="/PoliticaPrivacidade">Política de Privacidade</a></li>
               <li><a href="#">Sobre Nós</a></li>
             </ul>
           </div>

@@ -1,16 +1,9 @@
-*{
-    width: 100%;
-   height: 100vh; 
-   font-family: 'Times New Roman', Times, serif;
-   background: linear-gradient(-45deg, #ffce51,#ff7253 ,#fd5754
-    );
-    margin: 0 0 0 0 ;
-    padding: 0 0 0 100; 
-}
+
 #form{
-    position: relative;
-    top: 50%;
+    position: absolute ;
+    top:    50%;
     left: 50%;
+    bottom: 50%;
     transform: translate(-50%, -50%);
     background: #fff; 
     border-radius: 10px ;
@@ -71,12 +64,12 @@ label {
 }
 #btn button{
     font-family: 'Times New Roman', Times, serif;
-    background: -o-linear-gradient(-45deg, #ffce51, #ff7253,#fd5754);
+    background: -o-linear-gradient(-45deg, #0a0a0a, #0e0d0d,#0c0c0c);
     width: 100%;
     height: 40px;
     border: none;
     font-size: 1.2em;
-    color: azure;
+    color: rgb(17, 17, 17);
     border-radius: 20px;
     outline: none;
     cursor: pointer;

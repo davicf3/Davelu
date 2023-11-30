@@ -1,11 +1,13 @@
 import React from 'react';
-import LogoMenu from '../components/LogoMenu';
+import TelaMenu from '../components/TelaMenu';
+import '../Css/Cadastro.css';
+
 
 const Cadastro = () => {
   return (
 
     <div>
-      <LogoMenu/>
+      <TelaMenu/>
 
 <div id="form">
   
@@ -19,7 +21,7 @@ const Cadastro = () => {
 
     <label htmlFor="CPF">CPF</label>
     <div className="input">
-      <input id="CPF" name="CPF" placeholder="Digite Seu CPF" type="text" required />
+      <input id="CPF" name="CPF" placeholder="Digite Seu CPF" type="number" required />
     </div>
 
     <label htmlFor="Email">Email</label>
@@ -34,7 +36,7 @@ const Cadastro = () => {
 
     <label htmlFor="celular">Celular</label>
     <div className="input">
-      <input id="celular" name="celular" placeholder="Digite Seu N° de Celular" type="text" required/>
+      <input id="celular" name="celular" placeholder="Digite Seu N° de Celular" type="number" required/>
     </div>
 
     <label htmlFor="senha">Senha</label>

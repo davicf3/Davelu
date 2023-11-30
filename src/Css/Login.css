@@ -1,12 +1,5 @@
-body {
-    width: 100%;
-    height: 100vh;
-    font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(-45deg, #858480, #868686, #191818);
-}
-
 #form {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -65,7 +58,7 @@ body {
     height: 40px;
     border: none;
     font-size: 1.2em;
-    color: rgb(0, 0, 0);
+    color: azure;
     border-radius: 20px;
     outline: none;
     cursor: pointer;

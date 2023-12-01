@@ -23,7 +23,7 @@ const Login =() => {
            <div id="btn">
                <button typeof="LOGAR"> LOGAR</button>
            
-                   <a href="/Cadastro" target="_blank"> Cadastre-se  </a>
+                 
                
            </div>
         
